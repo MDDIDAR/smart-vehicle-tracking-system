@@ -1,2 +1,14 @@
-# smart-vehicle-tracking-system
- The Smart Vehicle Tracking System is a cloud-native app built with AWS IoT Core and Node.js to track vehicles in real-time. It collects GPS data for location tracking, route history, and performance monitoring. Data is securely stored in a scalable database, enabling analytics and alerts for route deviations or speed issues.
+# Welcome to your CDK TypeScript project
+
+This is a blank project for CDK development with TypeScript.
+
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+## Useful commands
+
+* `npm run build`   compile typescript to js
+* `npm run watch`   watch for changes and compile
+* `npm run test`    perform the jest unit tests
+* `npx cdk deploy`  deploy this stack to your default AWS account/region
+* `npx cdk diff`    compare deployed stack with current state
+* `npx cdk synth`   emits the synthesized CloudFormation template

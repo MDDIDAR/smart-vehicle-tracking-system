@@ -1,0 +1,29 @@
+{
+    "EnvironmentName":"dev",
+    "Lambdas":[
+        {
+            "Name":"read-s3-file",
+            "MemorySize":1024,
+            "Timeout":300,
+            "ENV":{},
+            "Layers":{
+                "Name":"cals"
+            }
+        },
+        {
+            "Name":"dynamoDb",
+            "MemorySize":1024,
+            "Timeout":300,
+            "ENV":{},
+            "Layers":[{
+              "Name": "layer-didar-dev",
+              "Version": "1",
+              "Account": "480269289133",
+              "Region": "us-east-1"
+            }]
+            
+        }
+    ],
+    "AWSAccount":"480269289133",
+    "AWSRegion":"us-east-1"
+}
